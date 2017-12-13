@@ -33,5 +33,6 @@ arg_struct = {
 
 if __name__ == '__main__':
     parser = ArgumentParser(arg_struct)
-    args = parser.parse(sys.argv[1:])
-    print(args)
+    if len(sys.argv) > 1:
+        args = parser.parse(sys.argv[1:])
+        print(args)
