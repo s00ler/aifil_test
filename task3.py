@@ -6,7 +6,8 @@ class ArgumentParser:
     """Class to handle arguments parse.
 
     Initialize with a argument dictionary, example below.
-    Use parse method to parse arg list."""
+    Use parse method to parse arg list.
+    """
 
     def __init__(self, argumet_struct: dict):
         """Init parser with argument_struct."""
